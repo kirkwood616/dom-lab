@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #1 VENDING MACHINE */
+#vending-machine {
+  background-image: linear-gradient(black, grey);
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.total {
+  background-color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.vendingButtonsDiv {
+  margin: 25px;
+  width: 375px;
+}
+
+.v-btn {
+  background-color: #18dfc6;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  width: 175px;
+}
+
+.v-btn:hover {
+  background-color: white;
+}
+
+/* #2 MAKE MONEY */
+
+#make-money {
+  background-image: linear-gradient(grey, black);
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#how-many {
+  width: 75px;
+  margin-left: 3px;
+}
+
+#coins {
+  width: 83px;
+}
+
+#formContainer {
+  width: 370px;
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#coinContainer {
+  background-color: white;
+  border-radius: 15px;
+  width: 370px;
+  height: auto;
+  margin: 25px;
+}
+
+.make-btn {
+  background-color: #18dfc6;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.make-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.coinDiv {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+.Penny {
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+}
+
+.Nickel {
+  background-color: silver;
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+}
+
+.Dime {
+  background-color: silver;
+  height: 47px;
+  width: 47px;
+  line-height: 47px;
+}
+
+.Quarter {
+  background-color: silver;
+  height: 65px;
+  width: 65px;
+  line-height: 65px;
+}
+
+/* #3 LIGHT BULB */
+#lightBulb {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+#number3 {
+  padding: 25px 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#lbContainer {
+  width: 375px;
+  margin: 0px;
+  text-align: center;
+}
+
+#lbBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lb-btn {
+  background-color: #18dfc6;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+}
+
+.lb-btn:hover {
+  background-color: black;
+  color: white;
+}

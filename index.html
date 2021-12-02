@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DOM Lab</title>
+  </head>
+  <body>
+    <!-- #1 VENDING MACHINE -->
+    <div id="vending-machine">
+      <div class="total">
+        Total:
+        <h3 id="totalAmount">$0.00</h3>
+      </div>
+      <div class="vendingButtonsDiv">
+        <button id="cola" class="v-btn">LIME COLA<br />$2.00</button>
+        <button id="peanuts" class="v-btn">SALTED PEANUTS<br />$3.00</button>
+        <button id="chocolate" class="v-btn">CHOCOLATE BAR<br />$4.00</button>
+        <button id="gummies" class="v-btn">FRUIT GUMMIES<br />$6.00</button>
+      </div>
+    </div>
+    <!-- #2 MAKE MONEY -->
+    <div id="make-money">
+      <div id="formContainer">
+        <form id="the-form">
+          <label for="how-many">How many?</label>
+          <input type="number" id="how-many" min="0" max="30" /><br />
+          <label for="coins"> Which coin?</label>
+          <select id="coins">
+            <option>Penny</option>
+            <option>Nickel</option>
+            <option>Dime</option>
+            <option>Quarter</option></select
+          ><br />
+          <button type="submit" class="make-btn">Make Money!</button>
+        </form>
+      </div>
+      <div id="coinContainer"></div>
+    </div>
+    <!-- #3 LIGHT BULB -->
+    <div id="number3">
+      <div id="lbContainer">
+        <div id="lightBulb">Light Bulb</div>
+        <div id="lbBtnContainer">
+          <button id="on" class="lb-btn">On</button>
+          <button id="off" class="lb-btn">Off</button>
+          <button id="toggle" class="lb-btn">Toggle</button>
+          <button id="end" class="lb-btn">End</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
